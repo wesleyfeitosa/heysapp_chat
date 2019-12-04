@@ -1,6 +1,8 @@
 body {
     background-color: #444;
-    background: url('../images/login-bg.jpg');  
+    background: url('../images/background-whatsapp-7.jpg');  
+    background-size: contain;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .form-signin input[type="text"] {
@@ -67,12 +69,15 @@ img {
 
 .participantes{
 	margin-top:70px;
-	margin-bottom: 70px;
+    margin-bottom: 70px;
+    background:rgb(226, 226, 226);
+    border-radius: 10px;
 }
 
 .participante{
 	display:block;
 	margin-bottom:15px;
+    margin-top:15px;
 }
 
 .participante img{
@@ -84,17 +89,18 @@ img {
 	height:auto;
 	margin-bottom:15px;
 	padding:10px;
-	background:#D8F0FE;
+    background:rgb(226, 226, 226);
+    border-radius: 10px;
 }
 
 .dialogo h4{
-	font-size:15px;
+	font-size:18px;
 	font-weight: bold;
-	color:#8B7777;
+	color:rgb(71, 71, 71);
 }
 
 .dialogo p{
-	font-size:12px;
+	font-size:16px;
 	padding-left:15px;
-	color:#8B7777;
+	color:rgb(71, 71, 71);
 }
